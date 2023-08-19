@@ -93,7 +93,7 @@
   }
 }
 /*xl*/
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .hero{
     gap: 2rem;
   }
@@ -115,7 +115,10 @@
   .hero__btn {
     font-size: var(--size-xl);
   }
+  .about__img{
+    width: 30rem;
+  }
 }
 /*2xl*/
-@media (min-width: 1536px) {
-}
+/* @media (min-width: 1536px) {
+} */
