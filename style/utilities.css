@@ -27,6 +27,20 @@
 .section {
   margin-top: 5rem;
 }
+.loading{
+  filter: blur(40px) grayscale(100%);
+}
+.loaded{
+  filter: blur(0) grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.light-mode {
+   --clr-light:#020617;
+    --clr-dark:#f1f5f9;
+    --clr-slate400:#475569;
+    --clr-slate600:#475569;
+    --clr-slate800:#1e293b;
+}
 /*xs*/
 @media (min-width: 475px) {
   .container {

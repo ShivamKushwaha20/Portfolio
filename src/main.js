@@ -11,6 +11,9 @@ import '../style/components/mobile.css';
 import '../style/utilities.css';
 
 import mobilenav from './utiles/mobile-nav';
-
+import darkMode from './utiles/dark-mode';
+import lazyLoad from './utiles/lazy-loading';
 
 mobilenav();
+darkMode();
+lazyLoad();
