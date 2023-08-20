@@ -6,6 +6,11 @@ import '../style/components/about.css';
 import '../style/components/featured.css';
 import '../style/components/work.css';
 import '../style/components/contact.css';
+import '../style/components/footer.css';
+import '../style/components/mobile.css';
 import '../style/utilities.css';
 
+import mobilenav from './utiles/mobile-nav';
 
+
+mobilenav();
